@@ -1,0 +1,11 @@
+BY SUBMITTING THIS FILE TO CARMEN, I CERTIFY THAT I STRICTLY ADHERED TO THE
+TENURES OF THE OHIO STATE UNIVERSITY’S ACADEMIC INTEGRITY POLICY.
+THIS IS THE README FILE FOR LAB 7
+
+Brett Emory
+
+1) I spent 15 hours working on lab 7
+
+2) I do not have any concerns about this lab but I will say that this lab was a much more in depth lab compared to lab 6. Not having any code to look at while writing these functions was difficult.
+
+3) I used GDB and tui reg general in order to find a bug in my compute function. I set a break point at compute and used tui reg general in order to inspect each register as I was trying to write the code for each of the computations. Writting the quotient computation was interesting for me because I needed to be able to see %eax and %edx in order to ultimately find out that I was moving the wrong number or address into one of the needed registers. To fix this I added some (maybe unneccesary) push and pop instructions in order to ensure that the registers holding value1 and value2 stayed consistent throughout each computation.
